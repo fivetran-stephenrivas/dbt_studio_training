@@ -1,0 +1,7 @@
+sources:
+  - name: jaffle_shop
+    database: comm_se_sandbox
+    schema: dbt_jaffle_shop
+    tables:
+      - name: customers
+      - name: orders

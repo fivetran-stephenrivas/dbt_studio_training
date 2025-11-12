@@ -3,4 +3,4 @@ select
     first_name,
     last_name
 
-from comm_se_sandbox.dbt_jaffle_shop.customers
+from {{ source('jaffle_shop', 'customers') }}
